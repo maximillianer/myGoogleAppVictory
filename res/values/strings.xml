@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="start">начать</string>
+    <string name="back">назад</string>
+    <string name="Level">Уровень:</string>
+    <string name="Level1">Уровень 1</string>
+    <string name="Level2">Уровень 2</string>
+    <string name="Level3">Уровень 3</string>
+    <string name="Level4">Уровень 4</string>
+    <string name="textconinue">продолжить</string>
+
+</resources>
