@@ -154,31 +154,7 @@ public class Level1 extends AppCompatActivity {
 
         //____________________________________________________________
 
-        //здесь должен был быть этот код кнопки назад
-    /*
-    //кнопка "назад" - начало
-Button btn_back = (Button)findViewById(R.id.button_back);
-btn_back.setOnClickListener(new OnClickListener() {
-    @Override
-    public void onClick(View v) {
-        //обрабатываем нажатие кнопки "Назад" начало
-        try {
-            //вернуться назад к выбору уровня - начало
-            Intent intent = new Intent(Level1.this, GameLevels.class);//создали намерение для перехода
-            startActivity(intent);//старт намерения
-            finish();//закрыть этот класс
-            //вернуться назад к выбору уровня - конец
-        }catch (Exception e){
-            //пусто
-        }
-        //обрабатываем нажатие кнопки "Назад" конец
-    }
-});
-//кнопка "назад" - конец
-
-
-    //но он почему-то не работает
-     **/
+      
         //массив для прогресса игры - начало
         final int[] progress = {
                 R.id.point1, R.id.point2, R.id.point3, R.id.point4, R.id.point5, R.id.point6, R.id.point7,
